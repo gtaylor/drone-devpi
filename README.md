@@ -7,7 +7,7 @@ Drone plugin for publishing Python packages to a [devpi](http://doc.devpi.net/) 
 
 ## Local Development
 
-Set up [drone-cli](https://github.com/drone/drone-cli) and run the .drone.yml, much like Drone itself will:
+Set up [drone-cli](https://github.com/drone/drone-cli) and use it to run through ``.drone.yml``, much like Drone itself will:
 
 ```sh
 drone exec
