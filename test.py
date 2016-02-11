@@ -28,7 +28,7 @@ class DevpiTestCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        # We'll only do this once so we're hammering the server if we
+        # We'll only do this once so we're not hammering the server if we
         # grow this test suite.
         cls._wait_for_devpi_to_start(cls.basic_input, cls.default_clientdir)
 
