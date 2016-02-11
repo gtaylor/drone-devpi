@@ -30,7 +30,6 @@ def main():
     payload = drone.plugin.get_input()
     vargs = payload["vargs"]
 
-    print("VARGS", vargs)
     select_server(vargs['server'])
     login(vargs['username'], vargs['password'])
     select_index(vargs['index'])
