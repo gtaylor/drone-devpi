@@ -1,9 +1,9 @@
-# drone-pypi
+# drone-devpi
 
 [![Build Status](http://beta.drone.io/api/badges/drone-plugins/drone-devpi/status.svg)](http://beta.drone.io/drone-plugins/drone-devpi)
 [![](https://badge.imagelayers.io/plugins/drone-devpi:latest.svg)](https://imagelayers.io/?images=plugins/drone-devpi:latest 'Get your own badge on imagelayers.io')
 
-Drone plugin for publishing to the Python package index
+Drone plugin for publishing Python packages to a [devpi](http://doc.devpi.net/) index.
 
 ## Local Development
 
